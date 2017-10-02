@@ -47,7 +47,7 @@ module TinifyNewImage
   end
 
   def self.optimize_image_file(file)
-    extensions = ['.jpg','.jpeg', '.png']
+    extensions = ['.JPG','.jpg','.jpeg', '.png']
 
     extension = File.extname(file)
 
